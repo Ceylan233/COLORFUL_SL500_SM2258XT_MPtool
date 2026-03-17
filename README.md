@@ -14,7 +14,7 @@
 手中这块是七彩虹的SL500固态硬盘，主控是SM2258XT，闪存丝印是H25QFT8B3A8R，ID是AD,5E,28,22,10,90（Hynix HY3DV4制程）。<br>
 **关于如何找到自己的硬盘的参数**<br>
 先使用硬盘进入工厂模式，拆开SSD，使用镊子短接两个ROM孔，短接的过程中插上电，就可以进入工厂模式。<br>
-此时任何一个开卡工具就可以搜索到硬盘，大小为1024M。<br>
+此时任何一个量产工具就可以搜索到硬盘，大小为1024M。<br>
 
 <img width="494" height="436" alt="image" src="https://github.com/user-attachments/assets/8ebd8b35-1bd3-4f98-962c-c626e3006dfb" /><br>
 
@@ -24,14 +24,16 @@
 
 <img width="712" height="1141" alt="image" src="https://github.com/user-attachments/assets/d5c05ff0-2dfa-4b82-891e-20a3096da46a" /><br>
 
-再从同网站搜索到主控SM2258XT，制程为3DV4的开卡工具<br>
+再从同网站搜索到主控SM2258XT，制程为3DV4的量产工具<br>
 
-短接进入开卡工具，打开设定(选择栏第二个)<br>
+<img width="2073" height="1042" alt="image" src="https://github.com/user-attachments/assets/c9180db2-54c6-468d-a907-93a89a51c568" /><br>
+
+短接进入量产工具，打开设定(选择栏第二个)<br>
 
 <img width="1516" height="1152" alt="image" src="https://github.com/user-attachments/assets/4695b40d-cf20-48d2-a7b9-bb83670c5e30" /><br>
 
 首先Flash要选对，推荐直接Auto，Flash频率改为100MHz，勾选忽略Tran ADJ，Pretest选择0，磁盘容量改为默认/自己填，勾选QC程序，最后点击保存配置。<br>
-返回第一页点击开卡，等待结束，完成后发现有坏块，我怀疑这是硬盘不能用的罪魁祸首。<br>
+返回第一页点击开始，等待，完成后发现有坏块，我怀疑这是硬盘不能用的罪魁祸首。<br>
 
 <img width="1516" height="1152" alt="image" src="https://github.com/user-attachments/assets/757ff08d-5974-43bf-ac13-2e7e21a554a8" /><br>
 
